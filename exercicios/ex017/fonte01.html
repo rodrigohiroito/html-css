@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        /*
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+        
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+
+        Recomendação W3C: px ou em
+        16px geralmente = 1em
+        */
+        font-size: 1em;
+
+        /* font-weight: lighter, normal, bold, bolder, 100~900 */
+      }
+
+      h1 {
+        /* shorthand font
+        - font-style -> font-weight -> font-size -> font-family
+
+        font-family: 'Work Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic;
+        */
+        font: italic bolder 3em "Work Sans", sans-serif;
+      }
+
+      h2 {
+        font: bold 2em "Work Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi in
+      recusandae modi esse, officia eos excepturi maxime iure illum tenetur
+      architecto, sit a ducimus quos similique labore soluta fugiat alias! Lorem
+      ipsum dolor sit, amet consectetur adipisicing elit. Hic minima,
+      perferendis ea, nostrum consectetur doloribus harum voluptas perspiciatis
+      eos distinctio aliquam iure laudantium nemo voluptatibus? Assumenda cum
+      illum porro consequuntur.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam
+      nostrum possimus eos eius deserunt aut sit sint minus itaque velit officia
+      necessitatibus a facere ab ipsum, aperiam quasi corporis praesentium?
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quis
+      laudantium mollitia modi ullam! Perspiciatis, deleniti ea quae qui ipsum
+      labore! Id adipisci accusamus porro itaque reprehenderit libero nesciunt
+      molestias!
+    </p>
+  </body>
+</html>
